@@ -10,13 +10,13 @@ class ImageFilterEngine {
         
         var displayName: String {
             switch self {
-            case .anime: return "Anime"
+            case .anime: return "Effect"
             }
         }
         
         var emoji: String {
             switch self {
-            case .anime: return "🎌"
+            case .anime: return "✨"
             }
         }
     }

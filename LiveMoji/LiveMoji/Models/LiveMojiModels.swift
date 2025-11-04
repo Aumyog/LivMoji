@@ -42,19 +42,19 @@ enum EmojiStyle: String, CaseIterable {
     
     var displayName: String {
         switch self {
-        case .anime: return "Anime"
+        case .anime: return "Effect"
         }
     }
     
     var emoji: String {
         switch self {
-        case .anime: return "🎌"
+        case .anime: return "✨"
         }
     }
     
     var description: String {
         switch self {
-        case .anime: return "Anime-style filter"
+        case .anime: return "Apply visual effect"
         }
     }
 }

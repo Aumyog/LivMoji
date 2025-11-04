@@ -16,7 +16,7 @@ struct SettingsView: View {
                                 .font(.title2)
                                 .fontWeight(.bold)
                             
-                            Text("Anime Photo Filter")
+                            Text("Photo Effect App")
                                 .font(.subheadline)
                                 .foregroundColor(.secondary)
                         }
@@ -186,7 +186,7 @@ struct SettingsView: View {
     }
     
     private func shareApp() {
-        let shareText = "Check out AnimeStyle! Apply anime-style filters to your photos with SwiftUI."
+        let shareText = "Check out LivMoji! Apply visual effects to your photos with SwiftUI."
         
         let activityVC = UIActivityViewController(
             activityItems: [shareText],

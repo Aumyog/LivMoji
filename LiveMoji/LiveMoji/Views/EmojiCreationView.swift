@@ -42,7 +42,7 @@ struct EmojiCreationView: View {
                     .padding()
                 }
             }
-            .navigationTitle("AnimeStyle")
+            .navigationTitle("LivMoji")
             .navigationBarTitleDisplayMode(.large)
             .sheet(isPresented: $showingImagePicker) {
                 ImagePicker(
@@ -96,12 +96,12 @@ struct EmojiCreationView: View {
             }
             
             VStack(spacing: 8) {
-                Text("AnimeStyle")
+                Text("LivMoji")
                     .font(.title2)
                     .fontWeight(.bold)
                     .foregroundColor(.primary)
                 
-                Text("Apply anime-style filters to photos")
+                Text("Apply visual effects to photos")
                     .font(.subheadline)
                     .foregroundColor(.secondary)
                     .multilineTextAlignment(.center)
